@@ -4,9 +4,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "spotify-web-api-node": "^5.0.2"
+  }
 }
